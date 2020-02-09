@@ -1,5 +1,5 @@
 <?php
-$json = file_get_contents('https://exer-json.herokuapp.com/json.php');
+$json = file_get_contents('https://exerjson.herokuapp.com/json.php');
 
 $data = json_decode($json,true);
 $list = $data['profile'];
