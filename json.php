@@ -7,7 +7,7 @@
   $profile = new profile();
   $list=$profile->get_profile();
 
-  echo "{\"BTS PROFILE\":";
+  echo "{\"profile\":";
   echo json_encode($list);
   echo "}";
 ?>
