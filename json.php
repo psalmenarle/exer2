@@ -4,8 +4,8 @@
 
   header('Content-Type: application/json');
 
-  $profile = new Profile();
-  $list=$profile->get_Profile();
+  $profile = new profile();
+  $list=$profile->get_profile();
 
   echo "{\"BTS PROFILE\":";
   echo json_encode($list);
