@@ -1,5 +1,5 @@
 <?php
- class Profile{
+ class profile{
 	public $db;
 
 	public function __construct(){
@@ -10,7 +10,7 @@
 		}
 	}
 
-	public function get_Profile(){
+	public function get_profile(){
 		$sql = "SELECT * FROM btsprofile";
 		$result = mysqli_query($this->db,$sql);
 		while($r = mysqli_fetch_assoc($result)){
